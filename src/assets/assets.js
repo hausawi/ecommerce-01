@@ -306,7 +306,7 @@ export const products = [
         price: 250,
         image: [access1],
         category: "Electronics",
-        subCategory: "Labtop",
+        subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
@@ -318,7 +318,7 @@ export const products = [
         price: 250,
         image: [access3],
         category: "Electronics",
-        subCategory: "Labtop",
+        subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
@@ -330,7 +330,7 @@ export const products = [
         price: 250,
         image: [access3],
         category: "Electronics",
-        subCategory: "Labtop",
+        subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
@@ -342,7 +342,7 @@ export const products = [
         price: 250,
         image: [access4],
         category: "Electronics",
-        subCategory: "Labtop",
+        subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
@@ -354,7 +354,7 @@ export const products = [
         price: 250,
         image: [access5],
         category: "Electronics",
-        subCategory: "Labtop",
+        subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
@@ -366,7 +366,7 @@ export const products = [
         price: 250,
         image: [access6],
         category: "Electronics",
-        subCategory: "Labtop",
+        subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
@@ -378,7 +378,7 @@ export const products = [
         price: 250,
         image: [access7],
         category: "Electronics",
-        subCategory: "Labtop",
+        subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
@@ -390,7 +390,7 @@ export const products = [
         price: 250,
         image: [access8],
         category: "Electronics",
-        subCategory: "Labtop",
+        subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
