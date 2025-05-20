@@ -120,6 +120,33 @@ const Collection = () => {
             </p>
 
           </div>
+
+
+          <div className='flex flex-col gap-2 text-sm mt-3 font-light text-gray-700'>
+            <p className='flex gap-2'>
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'kitchen'} /> Kitchen
+            </p>
+            <p className='flex gap-2'>
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'bed_room'} /> Bed Room
+            </p>
+            <p className='flex gap-2'>
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'LIV_Room'} /> Living Room
+            </p>
+          </div>
+
+          <div className='flex flex-col gap-2 text-sm mt-3 font-light text-gray-700'>
+            <p className='flex gap-2'>
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'women'} /> Women
+            </p>
+            <p className='flex gap-2'>
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'men'} /> Men
+            </p>
+            <p className='flex gap-2'>
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'kids'} /> Kids
+            </p>
+          </div>
+
+
         </div>
       </div>
       {/* Right Side */}
