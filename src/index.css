@@ -3,8 +3,11 @@
 *{
   font-family: "Prata";
 }
+
+
+
 a.active hr{
-  display: block ;
+  display: block;
 }
 
 .prata-regular {
@@ -12,9 +15,13 @@ a.active hr{
   font-weight: 400;
   font-style: normal;
 }
+
+::-webkit-scrollbar{
+  display: none;
+}
 @media (max-width:640px) {
   a.active{
-    background-color: black;
+    background-color: #0046BB !important;
     color: white;
   }
 }

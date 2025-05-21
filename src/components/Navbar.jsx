@@ -14,21 +14,21 @@ const Navbar = () => {
           <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
               <NavLink className="flex flex-col items-center gap-1" to={'/'}>
                   <p>Home</p>
-                  <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
+                  <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink><NavLink className="flex flex-col items-center gap-1" to={'/collection'}>
                   <p>Collection</p>
-                  <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
+                  <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink>
               <NavLink className="flex flex-col items-center gap-1" to={'/about'}>
                   <p>About</p>
-                  <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
+                  <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink>
               <NavLink className="flex flex-col items-center gap-1" to={'/contact'}>
                   <p>Contact</p>
-                  <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
-              </NavLink><NavLink className="flex flex-col items-center gap-1" to={'/contact'}>
+                  <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
+              </NavLink><NavLink className="flex flex-col items-center gap-1" to={'/platform'}>
                   <p>SDND-platform</p>
-                  <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
+                  <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink>
           </ul>
           
@@ -36,7 +36,7 @@ const Navbar = () => {
           <div  className='group relative'>
                   <img onClick={()=>setShowSearch(true)} src={assets.lang} alt='' className='w-5 cursor-pointer' />
                   <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
-                      <div className='flex flex-col gap-2 w-16 py-1 px-1 bg-slate-100 text-gray-700'>
+                      <div className='flex flex-col gap-2 w-16 py-1 px-1 bg-[#5BAEB7] text-gray-700'>
                           <p className='cusor-pointer hover:text-black'>Eng</p>
                           <p className='cusor-pointer hover:text-black'>Ar</p>
                           <p className='cusor-pointer hover:text-black'>Hausa</p>
@@ -47,7 +47,7 @@ const Navbar = () => {
               <div className='group relative'>
                   <img src={assets.profile} alt='' className='w-5 cursor-pointer' />
                   <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
-                      <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-700'>
+                      <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-[#5BAEB7] text-gray-700'>
                           <p className='cusor-pointer hover:text-black'>My Profile</p>
                           <p className='cusor-pointer hover:text-black'>Orders</p>
                           <p className='cusor-pointer hover:text-black'>Logout</p>
@@ -56,7 +56,7 @@ const Navbar = () => {
               </div>
               <Link to='/cart' className='relative'>
                   <img src={assets.cart} alt='' className='w-5 min-w-5' />
-                  <p className='absolute right-[-5px] top-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]'>10</p>
+                  <p className='absolute right-[-5px] top-[-5px] w-4 text-center leading-4 bg-[#0046BB] text-white aspect-square rounded-full text-[8px]'>10</p>
               </Link>
               <img onClick={()=>setVisible(true)} src={assets.menu } alt='' className='w-5 cursor-pointer sm:hidden'/>
           </div>

@@ -8,8 +8,11 @@ import menu from './menu.png'
 import dropdown from './dropdown.png'
 import exchange from './exchange.png'
 import quality from './quality.png'
+import star from './star.png'
+import star_dull from './star_dull.png'
 import cross from './cross.png'
 import support from './support.jpg'
+
 // Elctronics / laptops
 import hp1 from './hp1.png'
 import hp2 from './hp2.png'
@@ -93,6 +96,8 @@ export const assets = {
     exchange,
     quality,
     cross,
+    star,
+    star_dull,
 
     hp1,
     hp2,
@@ -159,10 +164,10 @@ export const products = [
         name: "New HP labtop with the best specifications",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 100,
-        image: [hp1],
+        image: [hp1,hp2, hp1,hp2 ],
         category: "Electronics",
         subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -171,10 +176,10 @@ export const products = [
         name: "New HP labtop with the best specifications",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 50,
-        image: [hp2],
+        image: [hp2, hp1,hp2,hp1],
         category: "Electronics",
         subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -183,10 +188,10 @@ export const products = [
         name: "New DELL labtop with the best specifications",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 40,
-        image: [dell1],
+        image: [dell1, dell2, dell1, dell2],
         category: "Electronics",
         subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -195,10 +200,10 @@ export const products = [
         name: "New DELL labtop with the best specifications",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 250,
-        image: [dell2],
+        image: [dell2,dell1, dell2, dell1],
         category: "Electronics",
         subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -211,7 +216,7 @@ export const products = [
         image: [apple1],
         category: "Electronics",
         subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -223,7 +228,7 @@ export const products = [
         image: [apple2],
         category: "Electronics",
         subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -234,8 +239,8 @@ export const products = [
         price: 250,
         image: [hppc1],
         category: "Electronics",
-        subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        subCategory: "PCs",
+        size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -246,8 +251,8 @@ export const products = [
         price: 250,
         image: [hppc2],
         category: "Electronics",
-        subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        subCategory: "PCs",
+        size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -258,8 +263,8 @@ export const products = [
         price: 250,
         image: [dellpc1],
         category: "Electronics",
-        subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        subCategory: "PCs",
+        size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -270,8 +275,8 @@ export const products = [
         price: 250,
         image: [dellpc2],
         category: "Electronics",
-        subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        subCategory: "PCs",
+        size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -282,8 +287,8 @@ export const products = [
         price: 250,
         image: [allinone1],
         category: "Electronics",
-        subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        subCategory: "PCs",
+        size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -294,8 +299,8 @@ export const products = [
         price: 250,
         image: [allinone2],
         category: "Electronics",
-        subCategory: "Labtop",
-        size: ["s", "M", "L", "XL", "XXL", "XXXL"],
+        subCategory: "PCs",
+        size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
         bestSeller: true
     },
@@ -462,7 +467,7 @@ export const products = [
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [livr1],
-        category: "LIV_Room",
+        category: "Appliances",
         subCategory: "LIV_Room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
