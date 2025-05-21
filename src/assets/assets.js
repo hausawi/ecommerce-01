@@ -1,4 +1,4 @@
-import assignment from './assignment.png'
+import bin from './bin.png'
 import logo from './logo.png'
 import search from './search.png'
 import profile from './profile.png'
@@ -98,6 +98,7 @@ export const assets = {
     cross,
     star,
     star_dull,
+    bin,
 
     hp1,
     hp2,
