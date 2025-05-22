@@ -11,6 +11,10 @@ import quality from './quality.png'
 import star from './star.png'
 import star_dull from './star_dull.png'
 import cross from './cross.png'
+import stripe from './stripe.png'
+import paypal from './paypal.png'
+import about from './about.png'
+import contact from './contact.png'
 import support from './support.jpg'
 
 // Elctronics / laptops
@@ -99,6 +103,10 @@ export const assets = {
     star,
     star_dull,
     bin,
+    stripe,
+    paypal,
+    contact,
+    about,
 
     hp1,
     hp2,
@@ -182,7 +190,7 @@ export const products = [
         subCategory: "Labtop",
         size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaac",
@@ -206,7 +214,7 @@ export const products = [
         subCategory: "Labtop",
         size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     
     {
@@ -231,7 +239,7 @@ export const products = [
         subCategory: "Labtop",
         size: ["G4", "G5", "G6", "G7", "G8", "G9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaag",
@@ -243,7 +251,7 @@ export const products = [
         subCategory: "PCs",
         size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaah",
@@ -255,7 +263,7 @@ export const products = [
         subCategory: "PCs",
         size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaai",
@@ -267,7 +275,7 @@ export const products = [
         subCategory: "PCs",
         size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaaj",
@@ -279,7 +287,7 @@ export const products = [
         subCategory: "PCs",
         size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaak",
@@ -291,7 +299,7 @@ export const products = [
         subCategory: "PCs",
         size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaal",
@@ -303,7 +311,7 @@ export const products = [
         subCategory: "PCs",
         size: ["Core i3", "Core i5", "Core i7", "Core i9"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaal1",
@@ -315,7 +323,7 @@ export const products = [
         subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaal2",
@@ -327,7 +335,7 @@ export const products = [
         subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaal3",
@@ -351,7 +359,7 @@ export const products = [
         subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaal5",
@@ -363,7 +371,7 @@ export const products = [
         subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaal6",
@@ -375,7 +383,7 @@ export const products = [
         subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaal7",
@@ -399,7 +407,7 @@ export const products = [
         subCategory: "Accessories",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea1",
@@ -411,7 +419,7 @@ export const products = [
         subCategory: "kitchen",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea2",
@@ -423,7 +431,7 @@ export const products = [
         subCategory: "kitchen",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea3",
@@ -435,7 +443,7 @@ export const products = [
         subCategory: "kitchen",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea4",
@@ -459,7 +467,7 @@ export const products = [
         subCategory: "kitchen",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     
     {
@@ -472,7 +480,7 @@ export const products = [
         subCategory: "LIV_Room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea1l2",
@@ -484,7 +492,7 @@ export const products = [
         subCategory: "LIV_Room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea3l3",
@@ -496,7 +504,7 @@ export const products = [
         subCategory: "LIV_Room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea4l4",
@@ -508,7 +516,7 @@ export const products = [
         subCategory: "LIV_Room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea5l5",
@@ -520,7 +528,7 @@ export const products = [
         subCategory: "LIV_Room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea1l1b1",
@@ -532,7 +540,7 @@ export const products = [
         subCategory: "bed_room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea1l2b2",
@@ -544,7 +552,7 @@ export const products = [
         subCategory: "bed_room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea3l3b3",
@@ -556,7 +564,7 @@ export const products = [
         subCategory: "bed_room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea4l4b4",
@@ -568,7 +576,7 @@ export const products = [
         subCategory: "bed_room",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaaea5l5b5",
@@ -592,7 +600,7 @@ export const products = [
         subCategory: "women",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan2",
@@ -604,7 +612,7 @@ export const products = [
         subCategory: "women",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan3",
@@ -616,7 +624,7 @@ export const products = [
         subCategory: "women",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan4",
@@ -628,7 +636,7 @@ export const products = [
         subCategory: "women",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan5",
@@ -640,7 +648,7 @@ export const products = [
         subCategory: "women",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
 
     {
@@ -653,7 +661,7 @@ export const products = [
         subCategory: "men",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan2m2",
@@ -665,7 +673,7 @@ export const products = [
         subCategory: "men",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan3m3",
@@ -677,7 +685,7 @@ export const products = [
         subCategory: "men",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan4m4",
@@ -689,7 +697,7 @@ export const products = [
         subCategory: "men",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan5m5",
@@ -701,7 +709,7 @@ export const products = [
         subCategory: "men",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan1m1k1",
@@ -713,7 +721,7 @@ export const products = [
         subCategory: "kids",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan2m2k2",
@@ -725,7 +733,7 @@ export const products = [
         subCategory: "kids",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan3m3k3",
@@ -737,7 +745,7 @@ export const products = [
         subCategory: "kids",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan4m4k4",
@@ -749,7 +757,7 @@ export const products = [
         subCategory: "kids",
         size: ["s", "M", "L", "XL", "XXL", "XXXL"],
         date: "07:33 PM - 2025/05/17",
-        bestSeller: true
+        bestSeller: false
     },
     {
         _id: "aaaaan5m5k5",
