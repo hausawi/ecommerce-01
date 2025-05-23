@@ -14,10 +14,10 @@ const LatestCollection = () => {
   return (
     <div className='my-10'>
       <div className='text-center py-8 text-3xl'>
-        <Title text1={'LATEST'} text2={'COLLECTIONS'} />
-        <p className='w-3/4 m-auto text-xs  sm:text-sm md:text-base text-gray-600'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi cupiditate iste nostrum distinctio?
-        </p>
+        <Title text1={'المنتجات '} text2={'الحصرية'} />
+        <p className='w-3/4 m-auto text-xs  sm:text-sm md:text-base text-gray-600'>تشكيلة واسعة من الأجهزة الإلكترونية
+(الهواتف الذكية والأجهزة اللوحية والحواسيب الشخصية والمحمولة وانواع الكترونيات مثل التلفزيونات الذكية
+وأجهزة الصوت والفيديو والأجهزة الطبية القابلة للارتداء وانواع الكترونيات مثل الأجهزة المنزلية الذكية.</p>
       </div>
       {/* Rendering Products */}
       <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6 '>

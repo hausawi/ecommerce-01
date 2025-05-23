@@ -14,7 +14,7 @@ const BestSeller = () => {
   return (
       <div className='mu-10'>
           <div className='text-center text-3xl py-8'>
-              <Title text1={'BEST'} text2={'SELLERS'} />
+              <Title text1={'الأكثر '} text2={' مبيعا'} />
               <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur distinctio dolorum quasi odio, aliquam corporis?
               </p>

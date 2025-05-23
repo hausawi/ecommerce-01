@@ -81,42 +81,42 @@ const Collection = () => {
       
       {/* Filter Option */}
       <div className='min-w-60'>
-        <p onClick={()=>setShowFilter(!showFilter)} className='my-2 text-xl flex items-center cursor-pointer gap-2'>FILTERS
+        <p onClick={()=>setShowFilter(!showFilter)} className='my-2 text-xl flex items-center cursor-pointer gap-2'>إضغط هنا لتصفية المنتجات
           <img className={`h-3 sm:hidden ${showFilter ? 'rotate-90' : ''}`} src={assets.dropdown} alt="" />
         </p>
         {/* Category Filter */}
-        <div className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '' : 'hidden'}`}>
-          <p className='mb-3 text-sm font-medium'>CATEGORIES</p>
+        <div className={`border border-gray-300 pr-3 pl-5 py-3 mt-6 ${showFilter ? '' : 'hidden'}`}>
+          <p className='mb-3 text-sm font-medium'>جميع الفئات</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleCategory} value={'Electronics'} /> Electronics
+              <input type="checkbox" className='w-3' onChange={toggleCategory} value={'Electronics'} /> الكترونيات
             </p>
 
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleCategory} value={'Appliances'} /> Appliances
+              <input type="checkbox" className='w-3' onChange={toggleCategory} value={'Appliances'} /> أجهزة كهربائية
             </p>
 
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleCategory} value={'Clothes'} /> Clothes
+              <input type="checkbox" className='w-3' onChange={toggleCategory} value={'Clothes'} /> ملابس
             </p>
 
           </div>
         </div>
         {/* SubCategory Filter */}
 
-        <div className={`border border-gray-300 pl-5 py-3 my-5 ${showFilter ? '' : 'hidden'}`}>
-          <p className='mb-3 text-sm font-medium'>TYPE</p>
+        <div className={`border border-gray-300 pr-3 pl-5 py-3 my-5 ${showFilter ? '' : 'hidden'}`}>
+          <p className='mb-3 text-sm font-medium'>النوع</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'Labtop'} /> Labtops
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'Labtop'} /> لابتوب
             </p>
 
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'PCs'} /> PCs
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'PCs'} /> كمبيوتر
             </p>
 
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'Accessories'} /> Accessories
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'Accessories'} /> اكسسوارات
             </p>
 
           </div>
@@ -124,25 +124,25 @@ const Collection = () => {
 
           <div className='flex flex-col gap-2 text-sm mt-3 font-light text-gray-700'>
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'kitchen'} /> Kitchen
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'kitchen'} /> المطبخ
             </p>
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'bed_room'} /> Bed Room
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'bed_room'} /> غرف النوم
             </p>
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'LIV_Room'} /> Living Room
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'LIV_Room'} /> غرف المعيشة
             </p>
           </div>
 
           <div className='flex flex-col gap-2 text-sm mt-3 font-light text-gray-700'>
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'women'} /> Women
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'women'} /> نساء
             </p>
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'men'} /> Men
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'men'} /> رجال
             </p>
             <p className='flex gap-2'>
-              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'kids'} /> Kids
+              <input type="checkbox" className='w-3' onChange={toggleSubCategory} value={'kids'} /> اطفال
             </p>
           </div>
 
@@ -152,12 +152,12 @@ const Collection = () => {
       {/* Right Side */}
       <div className='flex-1'>
         <div className='flex justify-between text-base sm:text-2xl mb-4'>
-          <Title text1={'ALL'} text2={'COLLECTIONS'} />
+          <Title text1={'جمـــــيع'} text2={'المنتجـــــــات'} />
           {/* Product Sort */}
           <select onChange={(e)=>setSortType(e.target.value)} className='border-2 border-gray-300 text-sm px-2'>
-            <option value="relavent">Sort by: Relavent</option>
-            <option value="low-high">Sort by: Low to High</option>
-            <option value="high-low">Sort by: High to Low</option>
+            <option value="relavent">تصفية حسب السعر</option>
+            <option value="low-high">الأقل الي الأعلى سعرا</option>
+            <option value="high-low">الأعلي الي الاقل سعرا</option>
           </select>
         </div>
         {/* Map Products */}

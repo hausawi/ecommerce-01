@@ -170,8 +170,8 @@ export const assets = {
 export const products = [
     {
         _id: "aaaaaa",
-        name: "New HP labtop with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز لابتوب / ماركة اتش بي/ الجيل / شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ السادس",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى ",
         price: 100,
         image: [hp1,hp2, hp1,hp2 ],
         category: "Electronics",
@@ -182,8 +182,8 @@ export const products = [
     },
     {
         _id: "aaaaab",
-        name: "New HP labtop with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز لابتوب / ماركة اتش بي/ الجيل / مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI، منفذ إيثرنت (في بعض الأحيان)، قارئ بطاقات ذاكرة، وأحيانًا قارئ بصمات الأصابع.السادس",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى ",
         price: 50,
         image: [hp2, hp1,hp2,hp1],
         category: "Electronics",
@@ -194,8 +194,8 @@ export const products = [
     },
     {
         _id: "aaaaac",
-        name: "New DELL labtop with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز لابتوب / ماركة ديل / الجيل السابع / كور  /شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ ",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى ",
         price: 40,
         image: [dell1, dell2, dell1, dell2],
         category: "Electronics",
@@ -206,8 +206,8 @@ export const products = [
     },
     {
         _id: "aaaaaad",
-        name: "New DELL labtop with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز لابتوب / ماركة ديل / الجيل السابع / كور  /مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI، منفذ إيثرنت (في بعض الأحيان)، قارئ بطاقات ذاكرة، وأحيانًا قارئ بصمات الأصابع.",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى ",
         price: 250,
         image: [dell2,dell1, dell2, dell1],
         category: "Electronics",
@@ -219,8 +219,8 @@ export const products = [
     
     {
         _id: "aaaaaae",
-        name: "New Apple labtop with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز لابتوب /ماركة ابل / الجيل الثامن / كور  شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ ",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى ",
         price: 250,
         image: [apple1],
         category: "Electronics",
@@ -231,8 +231,8 @@ export const products = [
     },
     {
         _id: "aaaaaaf",
-        name: "New Apple labtop with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز لابتوب /ماركة ابل / الجيل الثامن / كور  مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI،",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى ",
         price: 250,
         image: [apple2],
         category: "Electronics",
@@ -243,8 +243,8 @@ export const products = [
     },
     {
         _id: "aaaaaag",
-        name: "New HP desktop PC with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز كمبيوتر شخصي/ ماركة اتش بي / الجيل شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI.",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى ",
         price: 250,
         image: [hppc1],
         category: "Electronics",
@@ -255,8 +255,8 @@ export const products = [
     },
     {
         _id: "aaaaaah",
-        name: "New HP desktop PC with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز كمبيوتر شخصي/ ماركة اتش بي / الجيل شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI.",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى  ",
         price: 250,
         image: [hppc2],
         category: "Electronics",
@@ -267,8 +267,8 @@ export const products = [
     },
     {
         _id: "aaaaaai",
-        name: "Dell desktop PC with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز كمبيوتر شخصي/ ماركة ديل / الجيل شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI.",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى  ",
         price: 250,
         image: [dellpc1],
         category: "Electronics",
@@ -279,8 +279,8 @@ export const products = [
     },
     {
         _id: "aaaaaaj",
-        name: "New Dell desktop PC with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز كمبيوتر شخصي/ ماركة ديل / الجيل شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI.",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى  ",
         price: 250,
         image: [dellpc2],
         category: "Electronics",
@@ -291,8 +291,8 @@ export const products = [
     },
     {
         _id: "aaaaaak",
-        name: "New desktop PC with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز كمبيوتر شخصي/ ماركة ديل/ الكل في واحد / الجيل شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI.",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى  ",
         price: 250,
         image: [allinone1],
         category: "Electronics",
@@ -303,8 +303,8 @@ export const products = [
     },
     {
         _id: "aaaaaal",
-        name: "New desktop PC with the best specifications",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "جهاز كمبيوتر شخصي/ ماركة اتش بي/ الكل في واحد / الجيل شاشة LCD أو LED رقيقة مثبتة داخل الغطاء العلوي / لوحة مفاتيح أبجدية رقمية داخل الغطاء السفلي/ مكبرات الصوت توفر صوتًا مدمجًا/منافذ USB، منفذ HDMI.",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى  ",
         price: 250,
         image: [allinone2],
         category: "Electronics",
@@ -315,8 +315,8 @@ export const products = [
     },
     {
         _id: "aaaaaal1",
-        name: "New Accessories labtop & PCs high quality",
-        descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
+        name: "اكسسوارات / سماعة أذن/ جودة ممتازة / ملحقات كمبيوتر/ لابتوب",
+        descrption: "جهاز لابتوب هو جهاز حاسوب شخصي محمول، يتميز بسهولة نقله واستخدامه في أماكن متعددة. يتميز بتصميم  (All-in-One)، حيث يشتمل على شاشة ولوحة مفاتيح ولوحة لمس (بدلاً من الماوس) ومكبرات صوت مدمجة. يمكن أيضًا توصيله بمساحات تخزين خارجية، وكرت شاشة، و/أو اجهزة طرفية أخرى  ",
         price: 250,
         image: [access1],
         category: "Electronics",
@@ -327,7 +327,7 @@ export const products = [
     },
     {
         _id: "aaaaaal2",
-        name: "New Accessories labtop & PCs high quality",
+        name: "اكسسوارات / سماعة أذن/ جودة ممتازة / ملحقات كمبيوتر/ لابتوب",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 250,
         image: [access3],
@@ -339,7 +339,7 @@ export const products = [
     },
     {
         _id: "aaaaaal3",
-        name: "New Accessories labtop & PCs high quality",
+        name: "اكسسوارات / سماعة أذن/ جودة ممتازة / ملحقات كمبيوتر/ لابتوب",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 250,
         image: [access3],
@@ -351,7 +351,7 @@ export const products = [
     },
     {
         _id: "aaaaaal4",
-        name: "New Accessories labtop & PCs high quality",
+        name: "اكسسوارات / سماعة أذن/ جودة ممتازة / ملحقات كمبيوتر/ لابتوب",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 250,
         image: [access4],
@@ -363,7 +363,7 @@ export const products = [
     },
     {
         _id: "aaaaaal5",
-        name: "New Accessories labtop & PCs high quality",
+        name: "اكسسوارات / سماعة أذن/ جودة ممتازة / ملحقات كمبيوتر/ لابتوب",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 250,
         image: [access5],
@@ -375,7 +375,7 @@ export const products = [
     },
     {
         _id: "aaaaaal6",
-        name: "New Accessories labtop & PCs high quality",
+        name: "اكسسوارات / سماعة أذن/ جودة ممتازة / ملحقات كمبيوتر/ لابتوب",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 250,
         image: [access6],
@@ -387,7 +387,7 @@ export const products = [
     },
     {
         _id: "aaaaaal7",
-        name: "New Accessories labtop & PCs high quality",
+        name: "اكسسوارات / سماعة أذن/ جودة ممتازة / ملحقات كمبيوتر/ لابتوب",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 250,
         image: [access7],
@@ -399,7 +399,7 @@ export const products = [
     },
     {
         _id: "aaaaaal8",
-        name: "New Accessories labtop & PCs high quality",
+        name: "اكسسوارات / سماعة أذن/ جودة ممتازة / ملحقات كمبيوتر/ لابتوب",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 250,
         image: [access8],
@@ -411,7 +411,7 @@ export const products = [
     },
     {
         _id: "aaaaaea1",
-        name: "Kitchen cooker fridge mixer smoke_obsorver water cooler",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى. / المطبخ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [kitchen1],
@@ -423,7 +423,7 @@ export const products = [
     },
     {
         _id: "aaaaaea2",
-        name: "Kitchen cooker fridge mixer smoke_obsorver water cooler",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى. / المطبخ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [kitchen2],
@@ -435,7 +435,7 @@ export const products = [
     },
     {
         _id: "aaaaaea3",
-        name: "Kitchen cooker fridge mixer smoke_obsorver water cooler",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى. / المطبخ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [kitchen3],
@@ -447,7 +447,7 @@ export const products = [
     },
     {
         _id: "aaaaaea4",
-        name: "Kitchen cooker fridge mixer smoke_obsorver water cooler",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى. / المطبخ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [kitchen4],
@@ -459,7 +459,7 @@ export const products = [
     },
     {
         _id: "aaaaaea5",
-        name: "Kitchen cooker fridge mixer smoke_obsorver water cooler",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى. / المطبخ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [kitchen5],
@@ -472,7 +472,7 @@ export const products = [
     
     {
         _id: "aaaaaea1l1",
-        name: "Living room sofa chair air_condition vaccume cleaner",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة / الصالة/المعيشة /   ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [livr1],
@@ -484,7 +484,7 @@ export const products = [
     },
     {
         _id: "aaaaaea1l2",
-        name: "Living room sofa chair air_condition vaccume cleaner",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة / الصالة/المعيشة /   ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [livr2],
@@ -496,7 +496,7 @@ export const products = [
     },
     {
         _id: "aaaaaea3l3",
-        name: "Living room sofa chair air_condition vaccume cleaner",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة / الصالة/المعيشة /   ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [livr3],
@@ -508,7 +508,7 @@ export const products = [
     },
     {
         _id: "aaaaaea4l4",
-        name: "Living room sofa chair air_condition vaccume cleaner",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة / الصالة/المعيشة /   ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [livr4],
@@ -520,7 +520,7 @@ export const products = [
     },
     {
         _id: "aaaaaea5l5",
-        name: "Living room sofa chair air_condition vaccume cleaner",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة / الصالة/المعيشة /   ",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [livr5],
@@ -532,7 +532,7 @@ export const products = [
     },
     {
         _id: "aaaaaea1l1b1",
-        name: "Bed room closet wardrop bed",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة النوم",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [bedr1],
@@ -544,7 +544,7 @@ export const products = [
     },
     {
         _id: "aaaaaea1l2b2",
-        name: "Bed room closet wardrop bed",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة النوم",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [bedr2],
@@ -556,7 +556,7 @@ export const products = [
     },
     {
         _id: "aaaaaea3l3b3",
-        name: "Bed room closet wardrop bed",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة النوم",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [bedr3],
@@ -568,7 +568,7 @@ export const products = [
     },
     {
         _id: "aaaaaea4l4b4",
-        name: "Bed room closet wardrop bed",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة النوم",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [bedr4],
@@ -580,7 +580,7 @@ export const products = [
     },
     {
         _id: "aaaaaea5l5b5",
-        name: "Bed room closet wardrop bed",
+        name: "الأجهزة الكهربائية المكملة وتشمل الخلاط الكهربائي  ورامة اللحوم والخضار وعجانة ومجففة الملابس وآلة صنع القهوة والمكنسة الكهربائية وغيرها من المنتجات الاخرى / غرفة النوم",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 200,
         image: [bedr5],
@@ -592,7 +592,7 @@ export const products = [
     },
     {
         _id: "aaaaan1",
-        name: "Women jacket topwear Round Neck Cotton Top",
+        name: "فستان سهرة نسائي كيب، مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [women1],
@@ -604,7 +604,7 @@ export const products = [
     },
     {
         _id: "aaaaan2",
-        name: "Women jacket topwear Round Neck Cotton Top",
+        name: "فستان سهرة نسائي كيب، مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [women2],
@@ -616,7 +616,7 @@ export const products = [
     },
     {
         _id: "aaaaan3",
-        name: "Women jacket topwear Round Neck Cotton Top",
+        name: "فستان سهرة نسائي كيب، مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [women3],
@@ -628,7 +628,7 @@ export const products = [
     },
     {
         _id: "aaaaan4",
-        name: "Women jacket topwear Round Neck Cotton Top",
+        name: "فستان سهرة نسائي كيب، مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [women4],
@@ -640,7 +640,7 @@ export const products = [
     },
     {
         _id: "aaaaan5",
-        name: "Women jacket topwear Round Neck Cotton Top",
+        name: "فستان سهرة نسائي كيب، مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [women5],
@@ -653,7 +653,7 @@ export const products = [
 
     {
         _id: "aaaaan1m1",
-        name: "Men jacket topwear Round Neck Cotton Top",
+        name: "قميص رجالي فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [men1],
@@ -665,7 +665,7 @@ export const products = [
     },
     {
         _id: "aaaaan2m2",
-        name: "Men jacket topwear Round Neck Cotton Top",
+        name: "قميص رجالي فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [men2],
@@ -677,7 +677,7 @@ export const products = [
     },
     {
         _id: "aaaaan3m3",
-        name: "Men jacket topwear Round Neck Cotton Top",
+        name: "قميص رجالي فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [men3],
@@ -689,7 +689,7 @@ export const products = [
     },
     {
         _id: "aaaaan4m4",
-        name: "Men jacket topwear Round Neck Cotton Top",
+        name: "قميص رجالي فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [men4],
@@ -701,7 +701,7 @@ export const products = [
     },
     {
         _id: "aaaaan5m5",
-        name: "Men jacket topwear Round Neck Cotton Top",
+        name: "قميص رجالي فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [men5],
@@ -713,7 +713,7 @@ export const products = [
     },
     {
         _id: "aaaaan1m1k1",
-        name: "Kids jacket topwear Round Neck Cotton Top",
+        name: "قميص اطفال فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [kids1],
@@ -725,7 +725,7 @@ export const products = [
     },
     {
         _id: "aaaaan2m2k2",
-        name: "Kids jacket topwear Round Neck Cotton Top",
+        name: "قميص اطفال فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [kids2],
@@ -737,7 +737,7 @@ export const products = [
     },
     {
         _id: "aaaaan3m3k3",
-        name: "Kids jacket topwear Round Neck Cotton Top",
+        name: "قميص اطفال فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [kids3],
@@ -749,7 +749,7 @@ export const products = [
     },
     {
         _id: "aaaaan4m4k4",
-        name: "Kids jacket topwear Round Neck Cotton Top",
+        name: "قميص اطفال فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [kids4],
@@ -761,7 +761,7 @@ export const products = [
     },
     {
         _id: "aaaaan5m5k5",
-        name: "Kids jacket topwear Round Neck Cotton Top",
+        name: "قميص اطفال فانيليا شيرت سروال مطرز بالخرز استمتعي بإطلالة ساحرة مع هذا الفستان الفاخر المصمم خصيصًا، باللون الزيتي أو البنفسجي الرقيق، الذي يجسد الفخامة والأناقة في كل تفاصيله.",
         descrption: "A lightweight, usually knitted, pullover shirt, close-fitting and with ",
         price: 110,
         image: [kids5],

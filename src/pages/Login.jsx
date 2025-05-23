@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const Login = () => {
 
-  const [currentState, setCurrentState] = useState('Sign Up');
+  const [currentState, setCurrentState] = useState('اشتراك');
 
   const onSubmitHandler = async (event) => {
     event.preventDefault();
@@ -15,16 +15,16 @@ const Login = () => {
         <p className='prata-regilar text-3xl'>{currentState}</p>
         <hr className='border-none h-[1.5px] w-8 bg-gray-800' />
       </div>
-      {currentState === 'Login' ? '' : <input type="text" className='w-full px-3 py-2 border border-gray-800' required placeholder='Name' /> }
-      <input type="email" className='w-full px-3 py-2 border border-gray-800' required placeholder='Email' />
-      <input type="password" className='w-full px-3 py-2 border border-gray-800' required placeholder='Password' />
+      {currentState === 'تسجيل الدخول' ? '' : <input type="text" className='w-full px-3 py-2 border border-gray-800' required placeholder='الأسم' /> }
+      <input type="email" className='w-full px-3 py-2 border border-gray-800' required placeholder='البريد الالكتروني' />
+      <input type="password" className='w-full px-3 py-2 border border-gray-800' required placeholder='كلمة المرور' />
       <div className='w-full flex justify-between text-sm mt-[8px]'>
-        <p>Forgot your password?</p>
-        {currentState === 'Login'
-          ? <p onClick={()=>setCurrentState('Sign Up')} className='cursor-pointer'>Create account</p>
-         : <p onClick={()=>setCurrentState('Login')} className='cursor-pointer'>Login Here</p> }
+        <p>هل نسيت كلمة المرور؟</p>
+        {currentState === 'تسجيل الدخول'
+          ? <p onClick={()=>setCurrentState('اشتراك')} className='cursor-pointer'>إنشاء حساب</p>
+         : <p onClick={()=>setCurrentState('تسجيل الدخول')} className='cursor-pointer'>تسجيل الدخول</p> }
       </div>
-      <button className='bg-[#0046BB] text-white font-light px-8 py-2 mt-4'>{currentState === 'Login' ? 'Sign In' : 'Sign Up'}</button>
+      <button className='bg-[#0046BB] text-white font-light px-8 py-2 mt-4'>{currentState === 'تسجيل الدخول' ? 'تسجيل الدخول' : 'اشتراك'}</button>
     </form>
   )
 }

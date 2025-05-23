@@ -8,7 +8,7 @@ const Orders = () => {
   return (
     <div className='border-t pt-16'>
       <div className='text-2xl'>
-        <Title text1={'MY'} text2={'ORDERS'} />
+        <Title text1={'طلبــــا'} text2={'تي'} />
       </div>
 
       <div>
@@ -21,18 +21,18 @@ const Orders = () => {
                   <p className='sm:text-base font-medium '>{item.name}</p>
                   <div className='flex items-center gap-3 mt-2 text-base text-gray-700'>
                     <p className='test-lg'>{currency} {item.price}</p>
-                    <p>Quantity: 1</p>
-                    <p>Size: M</p>
+                    <p>الكمية: 1</p>
+                    <p>المقاس: متوسط</p>
                   </div>
-                  <p className='mt-2'>Date: <span className='text-gray-400'>25, Jun 2025</span></p>
+                  <p className='mt-2'>التاريخ: <span className='text-gray-400'>25, Jun 2025</span></p>
                 </div>
               </div>
               <div className='md:w-1/2 flex justify-between'>
                 <div className='flex items-center gap-2'>
                   <p className='min-w-2 h-2 rounded-full bg-green-500'></p>
-                  <p className='text-sm md:text-base'>Ready to ship</p>
+                  <p className='text-sm md:text-base'>جـــاهز للتوصيل</p>
                 </div>
-                <button className='border px-4 py-2 text-sm font-medium rouded-sm'>Track Order</button>
+                <button className='border px-4 py-2 text-sm font-medium rouded-sm'>تتبع الطلب</button>
               </div>
             </div>
           ))

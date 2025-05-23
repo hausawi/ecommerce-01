@@ -13,21 +13,21 @@ const Navbar = () => {
           <Link to='/'><img src={assets.logo} alt='' className='w-30'/></Link>
           <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
               <NavLink className="flex flex-col items-center gap-1" to={'/'}>
-                  <p>Home</p>
+                  <p>الرئيسية</p>
                   <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink><NavLink className="flex flex-col items-center gap-1" to={'/collection'}>
-                  <p>Collection</p>
+                  <p>المنتجات</p>
                   <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink>
               <NavLink className="flex flex-col items-center gap-1" to={'/about'}>
-                  <p>About</p>
+                  <p>نبذة عنا</p>
                   <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink>
               <NavLink className="flex flex-col items-center gap-1" to={'/contact'}>
-                  <p>Contact</p>
+                  <p>اتصل بنا</p>
                   <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink><NavLink className="flex flex-col items-center gap-1" to={'/platform'}>
-                  <p>SDND-platform</p>
+                  <p>المنصة</p>
                   <hr className='w-2/4 border-none h-[1.5px] bg-[#0046BB] hidden'/>
               </NavLink>
           </ul>
@@ -48,9 +48,9 @@ const Navbar = () => {
                   <Link to='/login' ><img src={assets.profile} alt='' className='w-5 cursor-pointer' /></Link>
                   <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
                       <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-[#5BAEB7] text-gray-700'>
-                          <p className='cusor-pointer hover:text-black'>My Profile</p>
-                          <p className='cusor-pointer hover:text-black'>Orders</p>
-                          <p className='cusor-pointer hover:text-black'>Logout</p>
+                          <p className='cusor-pointer hover:text-black'>الحساب </p>
+                          <p className='cusor-pointer hover:text-black'>الطلبات</p>
+                          <p className='cusor-pointer hover:text-black'>تسجيل الخروج</p>
                       </div>
                   </div>
               </div>
@@ -67,10 +67,11 @@ const Navbar = () => {
                       <img src={assets.dropdown} alt='' className='h-4 rotate-270' />
                       <p>Back</p>
                   </div>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/'>HOME</NavLink>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/'>الرئيسية</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>المنتجات</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>نبذة عنا</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>اتصل بنا</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='https://sudanesedream.org/login'>المنصة</NavLink>
               </div>
           </div>
       </div>
