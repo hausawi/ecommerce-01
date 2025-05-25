@@ -9,5 +9,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/ecommerce-01",
+  server: {port: 5173},
+  // base: "/ecommerce-01",
 });
