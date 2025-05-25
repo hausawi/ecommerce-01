@@ -1,14 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
-import { Home } from '../../react-ecommerce-01/src/pages/Home';
-import Collection from '../../react-ecommerce-01/src/pages/Collection';
-import Aboute from '../../react-ecommerce-01/src/pages/About';
-import Contact from '../../react-ecommerce-01/src/pages/Contact';
-import Product from '../../react-ecommerce-01/src/pages/Product';
-import Cart from '../../react-ecommerce-01/src/pages/Cart';
-import Login from '../../react-ecommerce-01/src/pages/Login';
-import PlaceOrder from '../../react-ecommerce-01/src/pages/PlaceOrder';
-import Orders from '../../react-ecommerce-01/src/pages/Orders';
-import Navbar from '../../react-ecommerce-01/src/components/Navbar';
+import { Home } from '../src/pages/Home'
+import Collection from '..//src/pages/Collection';
+import Aboute from '..//src/pages/About';
+import Contact from '..//src/pages/Contact';
+import Product from '..//src/pages/Product';
+import Cart from '..//src/pages/Cart';
+import Login from '..//src/pages/Login';
+import PlaceOrder from '..//src/pages/PlaceOrder';
+import Orders from '..//src/pages/Orders';
+import Navbar from '..//src/components/Navbar';
 import Footer from './components/Footer';
 import SearchBar from './components/SearchBar';
 import { ToastContainer } from 'react-toastify';
